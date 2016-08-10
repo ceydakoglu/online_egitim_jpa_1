@@ -10,6 +10,7 @@ import javax.persistence.*;
  *
  */
 @Entity
+@Table(name="Egitmen")
 public class Egitmen implements Serializable {
 	   
 	@Id
